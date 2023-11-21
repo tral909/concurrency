@@ -1,8 +1,8 @@
 package course.concurrency.exams.refactoring;
 
-import static course.concurrency.exams.refactoring.Others.*;
-
 import java.util.concurrent.CountDownLatch;
+
+import static course.concurrency.exams.refactoring.Others.MountTableManager;
 
 public class MountTableRefresherThread extends Thread {
 
